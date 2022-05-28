@@ -5,7 +5,7 @@ import { GithubExplorer } from './explorer/github-explorer.component';
 
 export interface AppProps {}
 
-export const App: React.FC<AppProps> = memoComponent('App', () => {
+export const App: React.FC<AppProps> = memoComponent('AppMain', () => {
     return (
         <div style={{ display: 'flex', height: '100%', flexDirection: 'column' }}>
             <div style={{ flexGrow: 1, padding: 8 }}>
